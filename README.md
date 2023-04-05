@@ -8,6 +8,16 @@ In the project directory, you can run:
 
 ### `npm start`
 
+PS C:\Users\Kyleg\WebstormProjects\uber-eats-dash> node -v
+v18.12.1
+PS C:\Users\Kyleg\WebstormProjects\uber-eats-dash> npx -v
+8.19.2
+PS C:\Users\Kyleg\WebstormProjects\uber-eats-dash> nvm -v
+1.1.10
+PS C:\Users\Kyleg\WebstormProjects\uber-eats-dash> npm -v
+8.19.2
+PS C:\Users\Kyleg\WebstormProjects\uber-eats-dash> 
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
