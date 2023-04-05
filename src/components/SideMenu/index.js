@@ -25,7 +25,7 @@ const SideMenu = () => {
   return (
     // TODO: Optimize menu styles in index.css
     // TODO: Integrate onMenuClick navigate into a lambda function in onClick
-    <Menu items={menuItems} style={{backgroundColor: 'black', color: 'white', textAlign: 'left'}} onClick={onMenuClick}/>
+    <Menu items={menuItems} style={{backgroundColor: '#00683E', color: 'white', textAlign: 'left'}} onClick={onMenuClick}/>
   )
 };
 export default SideMenu

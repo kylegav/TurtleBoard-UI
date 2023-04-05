@@ -13,4 +13,28 @@ code {
 }
 
 
+.ant-pagination-item-active {
+  border-color: #00683E !important;
+}
+
+li.ant-pagination-item-active a {
+  color: #00683E !important;
+}
+
+.ant-menu-item-selected {
+  background-color: #00683E !important;
+}
+
+.ant-menu-item-selected span {
+  color: white !important;
+}
+
+.ant-menu-item-active {
+  color: #a6aba7 !important;
+}
+
+
+
+
+
 
