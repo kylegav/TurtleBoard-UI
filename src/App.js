@@ -1,7 +1,9 @@
 import OrderDetails from "./modules/OrderDetails"
 import Orders from "./modules/Orders"
+import SideMenu from "./components/SideMenu"
 import {Routes, Route} from "react-router-dom";
 import {Layout, Image} from "antd";
+
 
 const {Sider, Content, Footer} = Layout;
 
@@ -10,6 +12,7 @@ function App() {
     <Layout>
       <Sider style={{height: '100vh', backgroundColor: "black" }}>
         <Image src={"https://logos-world.net/wp-content/uploads/2020/11/Uber-Eats-Symbol.jpg"} preview={false}></Image>
+        <SideMenu></SideMenu>
       </Sider>
       <Layout>
         <Content>
