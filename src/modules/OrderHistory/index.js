@@ -36,7 +36,6 @@ const OrderHistory = () => {
             <Table
                 dataSource={ordersHistory}
                 columns={tableColumns}
-                rowKey={"orderID"}
                 onRow={(orderItem) => ({
                     onClick: () => navigate(`../order/${orderItem.orderID}`)
                 })}

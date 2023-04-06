@@ -1,6 +1,7 @@
 import orders from '../../data/orders.json'
 import { Card, Table, Tag } from 'antd';
 import { useNavigate} from "react-router-dom";
+import { useState } from 'react';
 
 const Order = () => {
     const navigate = useNavigate();
@@ -41,15 +42,14 @@ const Order = () => {
         }
     ];
 
+
     return (
         <Card title={'Orders'} style={{margin: 20}}>
             <Table
                 dataSource={orders}
                 columns={tableColumns}
-                rowKey={"orderID"}
                 onRow={(orderItem) => ({
                     onClick: () => navigate(`order/${orderItem.orderID}`)
-
                 })}
 
             />
