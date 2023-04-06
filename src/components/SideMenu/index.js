@@ -17,6 +17,10 @@ const SideMenu = () => {
     {
       key: "menu",
       label: "Menu"
+    },
+    {
+      key: "settings",
+      label: "Settings",
     }
   ]
   const onMenuClick = (menuItem) => {
