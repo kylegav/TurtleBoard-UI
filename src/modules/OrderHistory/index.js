@@ -15,8 +15,7 @@ const OrderHistory = () => {
             dataIndex: 'orderID',
             key: 'orderID',
             // TODO: Add First and Last name to Table use sort method below
-            sorter: (a, b) => a.orderID.length - b.orderID.length,
-            sortDirections: ['descend']
+            //sorter: (a, b) => a.orderID.length - b.orderID.length,
         },
         {
             title: 'Delivery Address',
