@@ -5,13 +5,12 @@ import RestaurantMenu from "./modules/RestaurantMenu";
 import {Routes, Route} from "react-router-dom";
 import {Layout, Image} from "antd";
 
-
 const {Sider, Content, Footer} = Layout;
 
 function App() {
   return (
     <Layout>
-      <Sider style={{height: '100vh', backgroundColor: '#00683E'}}>
+      <Sider style={{backgroundColor: '#00683E'}}>
         <Image src={"GreeneTurtleLogo.jpg"}preview={false}></Image>
         <SideMenu></SideMenu>
       </Sider>
