@@ -3,6 +3,7 @@ import Orders from "./modules/Orders"
 import SideMenu from "./components/SideMenu"
 import RestaurantMenu from "./modules/RestaurantMenu";
 import NewMenuItem from "./modules/NewMenuItem";
+import OrderHistory from "./modules/OrderHistory";
 import {Routes, Route} from "react-router-dom";
 import {Layout, Image} from "antd";
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="order/:id" element={<OrderDetails/>}/>
             <Route path="menu" element={<RestaurantMenu/>}/>
               <Route path="menu/new-item" element={<NewMenuItem/>}/>
+              <Route path="order-history" element={<OrderHistory/>}/>
           </Routes>
         </Content>
         <Footer style={{textAlign: "center", backgroundColor: 'lightgray' }}>
