@@ -16,7 +16,7 @@ function App() {
           <Content>
               <AppRoutes/>
           </Content>
-        <Footer style={{textAlign: "center", backgroundColor: 'lightgray' }}>
+        <Footer style={{textAlign: "center", backgroundColor: 'lightgray'}}>
           TurtleBoard UI {packageInfo.version} ©Kyle Gavin 2023
         </Footer>
       </Layout>
